@@ -162,7 +162,7 @@ def rag_node(state: GraphState) -> GraphState:
 
 def web_node(state: GraphState) -> GraphState:
     try:
-        client = serpapi.Client(api_key="88bc1fc376b22a0f8b86375137e7349da439a47b1c32ef511d53c182016f47c9")
+        client = serpapi.Client(api_key="XXXXXXXXX")
         
         results = client.search({
                   "engine": "google",
